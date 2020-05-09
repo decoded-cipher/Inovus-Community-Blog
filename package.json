@@ -1,0 +1,28 @@
+{
+  "name": "community-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js -e js, hbs, css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decoded-cipher/Inovus-Community-Blog.git"
+  },
+  "author": "Decoded_Cipher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decoded-cipher/Inovus-Community-Blog/issues"
+  },
+  "homepage": "https://github.com/decoded-cipher/Inovus-Community-Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
